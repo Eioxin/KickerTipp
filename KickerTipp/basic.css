@@ -1,0 +1,506 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Kreon', serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul,
+ul.nmbrfield_field,
+ul.nmbrfield_field_ej,
+ul.nmbrfield_stars,
+ul.nmbrfield_field_keno {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #000;
+}
+
+a.bluefont {
+  color: #456799;
+}
+
+.link {
+  float: right;
+}
+
+div#contentContainer p  {
+  margin-bottom: 20px;
+}
+
+div#contentContainer p a[href] {
+  background: url("../../images/icons/arrow_red.png") no-repeat scroll 0 4px transparent;
+  float: none;
+  padding-left: 15px;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+  border-radius: 0;
+}
+
+input {
+  color: #bbbbbb;
+}
+
+footer {
+  height: 90px;
+  background-color: #004A93;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Kreon:300,400);
+
+
+
+nav ul,
+  ul.nmbrfield_field,
+  ul.nmbrfield_field_ej,
+  ul.nmbrfield_stars,
+  ul.nmbrfield_field_keno {
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; 
+  display: table; 
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+/* Überschriften */
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #004B93;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 120px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 50px;
+  font-family: 'Kreon';
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  padding: 80px 0 30px 0;
+  font-size: 40px;
+  font-family: 'Kreon';
+  font-weight: 400;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-family: 'Kreon';
+  font-weight: 400;
+  line-height: 25px;
+}
+
+h5 {
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 200;
+  color: #444444;
+}
+
+.font-large {
+  font-family: 'Kreon';
+  font-weight: 400;
+}
+
+/* Überschriften end*/
+
+/* Nav */
+
+nav {
+  background-color: #004B93;
+  width: 100%;
+  height: 110px;
+  float: right;
+  color: white;
+  z-index: 999999;
+  position: fixed;
+}
+
+.logo {
+  float: left;
+}
+
+#logoint {
+  float: left;
+}
+
+.MM-Kick {
+  margin-top: 40px;
+  float: left;
+  color: #888888;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.topline {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 16px;
+  font-family: 'Kreon';
+  font-weight: 400;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.topline:hover {
+  color: #888888;
+}
+
+.streage {
+  float: left;
+  list-style: none;
+  color: white;
+  margin: 62px 30px 0px 0px;
+}
+
+.lastpoint {
+  padding-right: 32px;
+}
+
+#topnavi {
+  float: right;
+}
+
+/* Nav ende*/
+
+/* Container One */
+
+#container-one {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0,75,147,0.7) 0%,rgba(8,160,154,0.7) 100%),
+    url(soccer.jpg) no-repeat 50%;
+  background-size: cover;
+  background-position: 0 50px;
+  background-repeat: no-repeat;
+  min-height: 860px;
+}
+
+.start {
+  padding-bottom: 186px;
+  padding-top: 120px;
+}
+
+.motto {
+  line-height: 48px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  width: 90%;
+  margin-right: auto;
+  margin-top: 135px;
+  margin-left: auto;
+}
+
+.infobutton {
+  display: block;
+  margin-top: 152px;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 34%;
+  font-size: 18px;
+  padding: 17px;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+}
+
+/* Container One end */
+
+/* container-three */
+
+#container-three {
+  background-color: rgba(9, 186, 179, 0.6);
+  padding-bottom: 120px;
+}
+
+.impressum-ges {
+  width: 50%;
+  float: left;
+}
+
+.impressum {
+  margin-top: 25px;
+  float: left;
+  line-height: 23px;
+  font-size: 20px;
+  color: #888888;
+}
+
+.e-mails {
+  margin-top: 55px;
+  margin-bottom: 75px;
+}
+
+.container-three-ges {
+  padding: 0 50px 0 50px;
+}
+
+.container-three-bridge {
+  height: 260px;
+  width: 100%;
+  float: left;
+}
+
+.form {
+  float: right;
+  font-size: 18px;
+  width: 48%;
+}
+
+.font-first {
+  margin-top: 0;
+}
+
+.form-in {
+  font-size: 20px;
+  padding: 0 10px;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.impressum-font {
+  display: block;
+  font-size: 17px;
+  margin: 25px 0;
+  color: #888888;
+}
+
+.form-message {
+  margin-top: 15px;
+  font-size: 20px;
+  width: 100%;
+  height: 175px;
+  border: none;
+  color: #BDBDC3;
+  resize: none;
+}
+
+.message-button {
+  background-color: #004B93;
+  color: white;
+  width: 101%;
+  height: 55px;
+  margin: 28px 0 0 0px;
+  font-size: 18px;
+  border: 2px solid #004A93;
+  border-radius: 2px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.message-button:hover {
+  background: white;
+  border: 2px solid #004A93;
+  color: #004A93;
+}
+
+.Split {
+  width: 50%;
+  float: left;
+}
+
+.Split p {
+  padding-bottom: 30px;
+}
+
+/* container-three end */
+
+/* Effects */
+
+.effect {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+ 
+.effect:hover {
+  background: rgba(0,75,147,1);
+  border: 2px solid rgba(0,75,147,0.75);
+  color: white;
+}
+ 
+.link-aktiv {
+  opacity: 0.4;
+}
+ 
+.hr-aktiv {
+  opacity: 0.3;
+}
+ 
+/* Effects end */
